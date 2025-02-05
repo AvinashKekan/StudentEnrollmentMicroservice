@@ -1,0 +1,6 @@
+services:
+  studentenrollmentmicroservice:
+    image: ${DOCKER_REGISTRY-}studentenrollmentmicroservice
+    build:
+      context: .
+      dockerfile: StudentEnrollmentMicroservice/Dockerfile
